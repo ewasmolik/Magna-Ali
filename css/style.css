@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.main-section {
+  background-color: #3C3A3B;
+  height: 600px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.navigation{
+  background: hoover;
+}
+
+.link {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.link:hover {
+ color:  #F95A9E;
+}
+
+.link-left
+.title-header {
+  margin-top: 30px;
+}
+
+.title-header {
+  text-decoration: none;
+  color: white;
+}
+
+.main-section-header {
+  color: white;
+  text-align: center;
+  display: block;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 200px;
+}
+
+.magna {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: transparent;
+  height: 70px;
+  width: 120px;
+  border-style: ridge;
+  margin: 20px 0;
+}
+
+.button-text {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+
+/* TRZECIA STRONA */
+.container {
+  height: 1200px;
+  margin: auto;
+}
+
+.container-tab {
+  background-color: white;
+  /* height: 600px;
+  margin: auto; */
+}
+.tab-small{
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+
+.tab-item {
+  width: 40px;
+  margin-right: 20px;
+}
+
+.tab-up {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.tab-down {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.tab-text-group {
+  display: block;
+}
+
+.tab-title {
+color: red;
+}
+
+
+.tab-text {
+  /* width: 150px; */
+}
+
+@media (max-width: 600px) {
+
+  .main-section {
+    display: block;
+    height: 600px;
+  }
+
+  .header {
+    display: block;
+    text-align: center;
+  }
+
+.navigation {
+  margin-top: 40px;
+}
+
+.link {
+  display: block;
+}
+
+.main-section-header {
+margin-top: 90px;
+}
+
+
+
+}
